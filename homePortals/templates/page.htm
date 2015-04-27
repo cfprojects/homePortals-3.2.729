@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>$PAGE_TITLE$</title>
+		$PAGE_HTMLHEAD$
+	</head>
+
+	<body>
+		<div id="h_main">
+			<div id="h_header">
+				<!-- Custom headers -->
+				$PAGE_CUSTOMSECTION["HEADER"]$
+				
+				<!-- Header Sections -->
+				$PAGE_LAYOUTSECTION["HEADER"]["DIV"]$
+			</div>
+
+			<!-- Column sections -->
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" id="h_body">
+				<tr valign="top">
+					$PAGE_LAYOUTSECTION["COLUMN"]["TD"]$
+				</tr>
+			</table>
+
+			<div id="h_footer">
+				<!-- Footer sections -->
+				$PAGE_LAYOUTSECTION["FOOTER"]["DIV"]$
+	
+				<!-- Custom footers -->
+				$PAGE_CUSTOMSECTION["FOOTER"]$
+			</div>
+		</div>
+	</body>
+</html>
